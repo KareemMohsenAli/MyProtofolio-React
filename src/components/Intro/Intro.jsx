@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/iti.jpg";
+import boy from "../../img/iti.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
@@ -28,9 +28,9 @@ const Intro = () => {
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Kareem Mohsen</span>
+          <span>Kareem Mohsen Ali</span>
           <span>
-            Frontend Developer with high level of experience in web designing
+            full stack Developer with high level of experience in web designing
             and development, producting the Quality work
           </span>
         </div>
@@ -39,16 +39,16 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+         <a target="_blank" href="https://github.com/KareemMohsenAli?tab=repositories"> <img src={Github} alt="" /></a>
+         <a target="_blank" href="https://www.linkedin.com/in/kareem-mohsen-a27b6526a"> <img src={LinkedIn} alt="" /></a>
+         <a target="_blank" href="https://www.instagram.com/kareemmoohsen/"> <img src={Instagram} alt="" /></a>
         </div>
       </div>
       {/* right image side */}
       <div className="i-right">
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
-        <img  width='40%' src={boy} alt="" />
+        <img style={{ borderRadius: "50%", width: "250px", height: "250px" ,top:"150px" }} src={boy} alt="" />
         {/* animation */}
         <motion.img
           initial={{ left: "-36%" }}

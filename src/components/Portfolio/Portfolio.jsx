@@ -51,7 +51,41 @@ const Portfolio = () => {
     <div className="portfolio" id="portfolio">
       {/* heading */}
       <span  style={{color: darkMode?'white': '',display:"none"}}>Recent Projects</span>
-      <span>Portfolio</span>
+      <span>BackEnd</span>
+
+      {/* slider */}
+      <Swiper
+        spaceBetween={30}
+        slidesPerView={3}
+        grabCursor={true}
+        className="portfolio-slider"
+      >
+        <SwiperSlide>
+          <a target="_blank" href="https://youtube-clone-v3-using-react-aqky.vercel.app/"> <img src={youtube} alt="" /></a>
+        </SwiperSlide>
+        <SwiperSlide>
+         <a target="_blank" href="https://tranquil-fairy-e92041.netlify.app/"> <img src={socail} alt="" /></a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a target="_blank" href="https://movie-app-using-react-tau.vercel.app/"> <img src={movie} alt="" /></a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a target="_blank" href="  https://food-order-react-three.vercel.app/"> <img src={food} alt="" /></a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a  target="_blank" href=" https://expenses-with-chart-using-react.vercel.app/"> <img style={{height:"50%"}} src={chart} alt="" /></a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a  target="_blank" href="https://bootstrap-upwork-clone.vercel.app/"> <img style={{height:"50%"}} src={upwork} alt="" /></a>
+        </SwiperSlide>
+      </Swiper>
+    </div>
+
+    {/* fullstack Projects////////////////////////////////////////////////////////////////////////////////////////////////// */}
+    <div className="portfolio" id="portfolio">
+      {/* heading */}
+      <span  style={{color: darkMode?'white': '',display:"none"}}>Recent Projects</span>
+      <span>Fullstack</span>
 
       {/* slider */}
       <Swiper

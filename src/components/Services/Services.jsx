@@ -27,9 +27,12 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+        ull-stack developer encompass end-to-end web development, 
           <br />
-          ispum is simpley dummy text of printing
+          from crafting dynamic front-end interfaces with modern 
+          <br />
+          frameworks to architecting robust back-end systems for seamless functionality and enhanced user experiences.
+          <br />
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -46,8 +49,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"FrontEnd"}
+            detail={"Html, Css, Javascript, JQuery, Bootstrap, Tailwind, React.js, Material-UI"}
           />
         </motion.div>
         {/* second card */}
@@ -58,8 +61,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"BackEnd"}
+            detail={"Node.js, Express.js, Mongoose, Sequelize, Django, Flask, odoo"}
           />
         </motion.div>
         {/* 3rd */}
@@ -72,7 +75,7 @@ const Services = () => {
             emoji={Humble}
             heading={"UI/UX"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "I transformed an e-commerce site using UI/UX design, resulting in better engagement and conversions through user-centered design and responsive layouts."
             }
             color="rgba(252, 166, 31, 0.45)"
           />

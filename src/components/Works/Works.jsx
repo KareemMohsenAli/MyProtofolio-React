@@ -3,7 +3,7 @@ import "./Works.css";
 import Upwork from "../../img/Upwork.png";
 import Fiverr from "../../img/fiverr.png";
 import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
+import khamsat from "../../img/khamsat.png";
 import Facebook from "../../img/Facebook.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
@@ -21,18 +21,15 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-            Works for All these
+            Works as FreeLance for All these
           </span>
-          <span>Brands & Clients</span>
+          <span style={{display:"none"}}>Brands & Clients</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+          Experienced freelance full-stack developer proficient in both front-end and back-end technologies,
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+            delivering comprehensive solutions for diverse projects
             <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
+         
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
@@ -60,10 +57,7 @@ const Works = () => {
             <img src={Fiverr} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
-          </div>{" "}
-          <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+            <img width={"100px"} src={khamsat} alt="" />
           </div>
           <div className="w-secCircle">
             <img src={Facebook} alt="" />
